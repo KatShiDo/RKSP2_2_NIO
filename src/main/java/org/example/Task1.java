@@ -1,6 +1,5 @@
 package org.example;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -18,7 +17,6 @@ public class Task1 {
 
         writeLinesToFile(fileName, lines);
         readAndPrintFileContent(fileName);
-
     }
 
     private static void writeLinesToFile(String fileName, String[] lines) {
