@@ -40,7 +40,7 @@ public class DirectoryWatcher {
                 System.out.println("Deleted lines in " + filePath + ":");
                 deletedLines.forEach(line -> System.out.println("- " + line));
             }
-            fileContentsMap.put(filePath, newFileContents);
         }
+        fileContentsMap.put(filePath, newFileContents);
     }
 }
